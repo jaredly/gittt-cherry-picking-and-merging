@@ -103,7 +103,11 @@ branch_to_master() {
   git merge --no-ff branch -m 'merging branch into master, after having cherry picked one of the commits from branch into master'
 }
 
+
+## Only run one of these, and comment the other out :)
 branch_to_master
+# master_to_branch
+
 
 # Now what does git log say?
 git log
